@@ -1,31 +1,34 @@
-🍕 Sistema de Checkout: Pizzaria LogicC
+📚 Exercícios de Lógica em Linguagem C
 
-Este projeto simula o sistema de fechamento de conta de uma pizzaria, desenvolvido em Linguagem C. O foco foi criar uma ferramenta funcional que calcula descontos promocionais e faz a divisão exata entre os clientes.
+Este repositório contém os meus projetos e exercícios desenvolvidos durante a faculdade de Análise e Desenvolvimento de Sistemas (ADS), focados na base da programação com a linguagem C.
 
-⚙️ Funcionalidades do Sistema:
+🚀 Projeto em Destaque: Cálculo de Desconto e Imposto
 
-Cálculo de Desconto: Aplicação de descontos percentuais sobre o valor total do pedido (ideal para promoções de terça-feira!).
+Este programa demonstra a aplicação de conceitos fundamentais da linguagem C para resolver um problema de cálculo financeiro.
 
-Divisão por Pessoa: Distribuição do valor final (pós-desconto) entre os integrantes da mesa.
+🛠️ Conceitos Aplicados:
 
-Tratamento de Exceções: O sistema impede erros comuns, como divisão por zero ou inserção de descontos superiores a 100%.
+Diretivas de Compilação: Uso de #define para definir constantes (Taxa de Desconto).
 
-🛠️ Especificações Técnicas:
+Tipagem de Dados: Manipulação de valores monetários com float para garantir precisão decimal.
 
-Entrada Dinâmica: O programa interage com o utilizador para receber os valores em tempo real.
+Localização: Implementação da biblioteca locale.h para suporte a caracteres da língua portuguesa e formatação de moeda (R$).
 
-Estrutura de Decisão: Uso de if/else encadeados para garantir que a lógica de negócio seja respeitada.
+Saída Formatada: Uso de printf com especificadores de precisão (%.2f) para exibição profissional de resultados.
 
-Interface de Saída: Resumo detalhado do pedido com formatação de casas decimais (%.2f).
+📋 Como Executar:
 
-📋 Exemplo de Uso:
+Certifique-se de ter um compilador de C instalado (GCC, Clang ou o próprio VS Code com extensões).
 
-Entrada: Conta de R$ 100,00 | 4 Pessoas | 10% de Desconto.
+Compile o ficheiro:
 
-Processamento: R$ 10,00 de desconto aplicado.
+gcc desconto.c -o desconto
 
-Saída: Total de R$ 90,00 | R$ 22,50 por pessoa.
 
-Projeto Académico: ADS - Anhanguera
-Módulo: Fundamentos de Programação Estruturada
-Dev: Igor M. Santos
+Execute o programa:
+
+./desconto
+
+
+Curso: Análise e Desenvolvimento de Sistemas (ADS)
+Objetivo: Fortalecer a base em algoritmos e gestão de memória.

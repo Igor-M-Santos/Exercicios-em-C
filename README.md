@@ -1,34 +1,23 @@
-📚 Exercícios de Lógica em Linguagem C
+💻 Repositório de Exercícios: Linguagem C
+Este repositório contém os meus projetos desenvolvidos na faculdade de ADS (Anhanguera), focados em lógica de programação e estruturas de dados em C.
 
-Este repositório contém os meus projetos e exercícios desenvolvidos durante a faculdade de Análise e Desenvolvimento de Sistemas (ADS), focados na base da programação com a linguagem C.
+🍕 Projeto: Sistema de Checkout Pizzaria LogicC (Novo!)
+Simulação de fechamento de conta com regras de negócio.
 
-🚀 Projeto em Destaque: Cálculo de Desconto e Imposto
+Destaques: Cálculo de desconto percentual e divisão de conta por pessoa.
 
-Este programa demonstra a aplicação de conceitos fundamentais da linguagem C para resolver um problema de cálculo financeiro.
+Lógica: Validação com if/else para evitar erros de divisão por zero e descontos acima de 100%.
 
-🛠️ Conceitos Aplicados:
+📉 Projeto: Cálculo de Desconto e Imposto
+Estudo inicial sobre constantes e formatação de dados.
 
-Diretivas de Compilação: Uso de #define para definir constantes (Taxa de Desconto).
+Conceitos: Uso de #define, locale.h para suporte a R$ e precisão decimal com float.
 
-Tipagem de Dados: Manipulação de valores monetários com float para garantir precisão decimal.
+🛠️ Como Executar:
+Para compilar e rodar qualquer um dos ficheiros:
 
-Localização: Implementação da biblioteca locale.h para suporte a caracteres da língua portuguesa e formatação de moeda (R$).
-
-Saída Formatada: Uso de printf com especificadores de precisão (%.2f) para exibição profissional de resultados.
-
-📋 Como Executar:
-
-Certifique-se de ter um compilador de C instalado (GCC, Clang ou o próprio VS Code com extensões).
-
-Compile o ficheiro:
-
-gcc desconto.c -o desconto
-
-
-Execute o programa:
-
-./desconto
-
-
-Curso: Análise e Desenvolvimento de Sistemas (ADS)
-Objetivo: Fortalecer a base em algoritmos e gestão de memória.
+Bash
+gcc nome_do_arquivo.c -o programa
+./programa
+Desenvolvedor: Igor M. Santos
+#ADS #LinguagemC #Programação
